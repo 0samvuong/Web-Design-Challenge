@@ -5,16 +5,15 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Components</title>
+  <title>Sam Vuong Homework</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
-
 
 
 <body>
 
-    <!-- Nav creation -->
+    <!-- Nav creation code from weekly lesson-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
     <a class="navbar-brand" href="index.html">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,6 +43,80 @@
       </ul>
     </div>
   </nav>
+
+<!-- Body -->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7 col-12">
+      <h1>Summary: Latitude vs. X</h1>
+        <hr>
+      <img src="WebVisualisations/Resources/assets/images/Fig1.png" class="img-fluid">
+      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+        500 cities.</p>
+      <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+        source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+    </div>
+
+
+    
+    <div class="col-md-5 col-12">
+      <h1>Visualisations</h1>
+        <hr>
+      <div class="row">
+      <div class="col-6">       
+        <a href="WebVisualisations/temperature.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig1.png" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-6">
+        <a href="WebVisualisations/humidity.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig2.png" class="img-fluid">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <a href="WebVisualisations/cloudiness.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig3.png" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-6">
+        <a href="WebVisualisations/speed.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig4.png" class="img-fluid">
+        </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- <div class="container">
+    <div class="col-md-7">
+          <div class="row">
+            <h1>Summary: Latitude vs. X</h1>
+            <hr>
+            <img src="WebVisualisations/Resources/assets/images/Fig1.png" class="img-fluid">
+            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+              500 cities.</p>
+            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+              source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-3">
+      <div class="row">
+            <h1>Summary: Latitude vs. X</h1>
+            <img src="WebVisualisations/Resources/assets/images/Fig1.png" class="img-fluid">
+            <img src="WebVisualisations/Resources/assets/images/Fig2.png" class="img-fluid">
+            <img src="WebVisualisations/Resources/assets/images/Fig3.png" class="img-fluid">
+            <img src="WebVisualisations/Resources/assets/images/Fig4.png" class="img-fluid">
+          </div>
+    </div>
+  </div> -->
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
